@@ -1,1 +1,109 @@
+.App {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
 
+.header {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.button {
+  padding: 8px 14px;
+  background-color: #27aedb;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.refresh-btn {
+  background-color: #f0ad4e;
+}
+
+.post-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.post-form input,
+.post-form select,
+.post-form textarea {
+  padding: 8px;
+  font-size: 14px;
+}
+
+.posts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.post-card,
+.post {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 16px;
+  background-color: #fafafa;
+}
+
+.post-meta {
+  color: #777;
+  font-size: 13px;
+}
+
+.reactions {
+  display: flex;
+  gap: 8px;
+  margin: 10px 0;
+}
+
+.reaction-btn {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.users-list ul,
+.user-posts ul {
+  list-style: none;
+  padding: 0;
+}
+
+.users-list li,
+.user-posts li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.notification-item {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  background-color: #f5f5f5;
+}
